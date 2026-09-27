@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "gpuloft": {
+      "url": "https://mcp.gpuloft.com/mcp",
+      "headers": { "Authorization": "Bearer ${GPULOFT_API_KEY}" }
+    }
+  }
+}
