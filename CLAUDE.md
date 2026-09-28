@@ -52,3 +52,7 @@ cd node && npm install && node chat.mjs
   VLLM_API_KEY=sk-loft-w74kKAqRJjWnDxdvoflpNDjuo4qmuT2d37qi1VXR
 - Rate limits: trial 20 rpm, integrations 600 rpm (register via
   /v1/integrations).
+- OAuth examples: self-registered clients only get models:read, inference and
+  usage:read. The ci-bot service account (keys:read) is what CI uses; its
+  client credentials are issued by the Ops agent (A2A,
+  https://mcp.gpuloft.com/a2a/ops), not the console.
